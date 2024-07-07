@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description"
+		content="Мы - школа дизайна “WaV School” представляем собой сообщество активных, целеустремленных и амбициозных людей, точно таких-же, как и вы! Раз вы читаете этот текст, значит вы хотите развить, улучшить, или обрести новые навыки в сфере веб-дизайна">
+	<link rel="icon" type="image/svg+xml" href="./public/courses.png" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+	<title>WaV School</title>
+	<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<style>
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+
+	*:focus {
+		outline: none;
+	}
+
+	html,
+	body {
+		height: 100%;
+		line-height: 1;
+	}
+
+	body {
+		-webkit-tap-highlight-color: transparent;
+		-moz-tap-highlight-color: transparent;
+		-ms-tap-highlight-color: transparent;
+		background-color: #9aaeca;
+		color: black;
+		font-family: 'Montserrat', sans-serif;
+		overflow-x: hidden;
+		background-color: #9aaeca;
+	}
+
+	a {
+		text-decoration: none;
+		color: inherit;
+	}
+
+	.wrapper {
+		min-height: 100vh;
+		display: flex;
+		flex-direction: column;
+		position: relative;
+		text-align: center;
+	}
+
+	.content {
+		flex: 1;
+	}
+
+
+	.logo img {
+		width: 160px;
+		transition: 500ms ease;
+	}
+
+	.logo img:hover,
+	.support img:hover {
+		transform: scale(1.1);
+	}
+
+	.support img {
+		width: 64px;
+		height: 64px;
+		transition: 500ms ease;
+	}
+
+	li {
+		list-style: none;
+	}
+
+	@media (max-width:400px) {
+		.logo img {
+			width: 100px;
+		}
+
+		.support img {
+			width: 45px;
+			height: 45px;
+		}
+	}
+</style>
+
+<body>
+	<div class="wrapper">
+		<header class="2xl:mb-24 lg:mb-12 mb-10 flex items-center justify-between shadow-md lg:px-20 px-10 py-4">
+			<div class="logo">
+				<a href="https://wavschool.com/">
+					<img src="https://wavschool.com/assets/logo-7f424a1b.webp" alt="logo">
+				</a>
+			</div>
+			<div class="support">
+				<a href="https://t.me/WVS_Support">
+					<img src="https://wavschool.com/assets/support-f2cd801c.svg" alt="support">
+				</a>
+			</div>
+		</header>
+		<div class="container mx-auto content flex items-center justify-center">
+			<div
+				class="bg-white shadow-xl rounded-md px-8 pt-6 pb-8 mb-4 lg:w-[650px] md:w-[75%] w-[90%] mx-auto text-center">
+				<h1 class="lg:text-3xl sm:text-xl text-lg md:text-2xl font-bold mb-4 text-[#F9C430]">Упс... Что-то пошло не
+					так...</h1>
+				<p class="md:text-xl sm:text-base text-sm mb-6">Попробуйте ещё раз либо свяжитесь с нашей поддержкой</p>
+				<div class="flex items-center flex-row justify-between max-[500px]:justify-center sm:space-y-0 space-y-3">
+					<img class="2xl:w-1/2 xl:w-[40%] w-40 max-[500px]:hidden" src="./bad.png" alt="good">
+					<button
+						class='bg-[#F9C430] hover:bg-[#9b8340] text-white font-bold py-2 px-8 rounded focus:outline-none focus:shadow-outline cursor-pointer duration-500'>
+						<a href="https://wavschool.com/">Назад</a>
+					</button>
+				</div>
+			</div>
+		</div>
+		<footer class="bg-white shadow-lg w-full py-6">
+			<div class="container mx-auto">
+				<ul class="sm:flex items-center justify-center lg:space-x-32 md:space-x-12 sm:space-x-4 flex-wrap pl-5 sm:pl-0">
+					<li class="mb-4 xl:mb-0">
+						<a class='flex items-center hover:scale-105 font-bold sm:text-lg text-base duration-500 hover:text-[#F9C430]'
+							href="mailto:wavschool.sup@gmail.com">
+							<img class="lg:w-10 w-8 mr-3" src="https://wavschool.com/assets/email-b6d2190a.svg"> wavschool.sup@gmail.com
+						</a>
+					</li>
+					<li class="mb-4 xl:mb-0">
+						<a class='flex items-center hover:scale-105 font-bold sm:text-lg text-base duration-500 hover:text-[#F9C430]'
+							href="https://t.me/WVS_Support">
+							<img class="lg:w-10 w-8 mr-3" src="https://wavschool.com/assets/telegram-9744d098.svg"> Support
+						</a>
+					</li>
+					<li class="mb-4 xl:mb-0">
+						<a class='flex items-center hover:scale-105 font-bold sm:text-lg text-base duration-500 hover:text-[#F9C430]'
+							href="https://instagram.com/wav_school?igshid=OGQ5ZDc2ODk2ZA==">
+							<img class="lg:w-10 w-8 mr-3" src="https://wavschool.com/assets/Instagram-8060ef38.svg"> Instagram
+						</a>
+					</li>
+					<li class="mb-4 xl:mb-0">
+						<a class='flex items-center hover:scale-105 font-bold sm:text-lg text-base duration-500 hover:text-[#F9C430]'
+							href="https://t.me/WaV_School_Courses">
+							<img class="lg:w-10 w-8 mr-3" src="https://wavschool.com/assets/telegram-9744d098.svg"> WaV School
+						</a>
+					</li>
+				</ul>
+			</div>
+		</footer>
+	</div>
+</body>
+
+</html>
